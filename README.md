@@ -10,3 +10,4 @@ To do this:
 - In the browser, type in `http://localhost:8080` to access the airflow web UI.
 - Login using username: `airflow`, password: `airflow.
 - Run the desired DAG from the UI. `test_basic_extract` is provided.
+- To stop airflow use `docker compose down`.

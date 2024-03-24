@@ -1,0 +1,6 @@
+lxml
+pandas
+pyarrow
+pydantic > 2.0
+pydantic-xml
+pytest

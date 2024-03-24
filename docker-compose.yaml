@@ -281,16 +281,5 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
-  ccd-postgres:
-    image: postgres:13
-    ports:
-      - 5432:5432
-    volumes: 
-      - /home/mial/repos/ccd-parse/ccda:/var/lib/postgresql/xml_files
-    environment:
-      - POSTGRES_PASSWORD=ccd
-      - POSTGRES_USER=ccd
-      - POSTGRES_DB=ccd_db
-
 volumes:
   postgres-db-volume:
